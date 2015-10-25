@@ -63,7 +63,7 @@ int main()
     }
     QuickSort(numbersToSort, 0, N-1);
     for(int i=0; i< N; i++){
-            printf(" %u", numbersToSort[i]);
+            printf("%u ", numbersToSort[i]);
     }
     return 0;
 }
